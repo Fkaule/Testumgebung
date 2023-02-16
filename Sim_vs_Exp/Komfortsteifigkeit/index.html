@@ -22,16 +22,16 @@
 </head>
 <body>
 
-<img class="background-image" src="OO3A2016_Freischnitt.png" style="max-width: 500px;">
+<img class="background-image" src="Experiment_1000px.png" style="max-width: 500px;">
 
-<img class="foreground-image" src="OO3A2016_Simulation.png" style="max-width: 500px;">
+<img class="foreground-image" src="Simulation_1000px.png" style="max-width: 500px;">
 
 <script>
     var foreground = document.querySelector('.foreground-image');
     var background = document.querySelector('.background-image');
     
     document.addEventListener('mousemove', function(e) {
-      var radius = 100; 
+      var radius = 70; 
       var rect = background.getBoundingClientRect();
       var x = e.clientX - rect.left;
       var y = e.clientY - rect.top;
